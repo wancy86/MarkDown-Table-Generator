@@ -43,7 +43,7 @@ Sub GenTableBtn()
     'send to clipboard
     Dim MyData2 As New DataObject
     Dim clip$
-    clip = "123"
+    clip = tabstr
     MyData2.SetText clip
     MyData2.PutInClipboard
 
